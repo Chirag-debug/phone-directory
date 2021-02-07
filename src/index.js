@@ -5,9 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+  <div>
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  <span>Hello React</span>
+  <input type="radio" value="radio"/>Yes
+  </div>,
   document.getElementById('root')
 );
 
