@@ -18,6 +18,11 @@
   color: #fff;
 }
 
+.del-btn {
+  background: crimson;
+  color: #fff;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 40% 30% auto;
@@ -41,4 +46,8 @@
   font-weight: 600;
   color: #808080;
   text-transform: uppercase;
+}
+
+.action-btn-container {
+  right: 1%;
 }

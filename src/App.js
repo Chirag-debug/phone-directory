@@ -31,7 +31,10 @@ class App extends Component {
               subscribers.map( sub => {
                 return <div key={sub.id} className="grid-container">
               <span className="grid-item">{sub.name}</span> <br/>
-              <span className="grid-item">{sub.phone}</span>
+              <span className="grid-item">{sub.phone}</span> <br/>
+              <span className="grid-item action-btn-container">
+                <button className="custom-btn del-btn">Delete</button>
+              </span>
               </div>
               })
             }
@@ -43,3 +46,5 @@ class App extends Component {
 } 
 
 export default App;
+
+//
