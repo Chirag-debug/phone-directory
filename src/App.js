@@ -4,6 +4,11 @@ import { Fragment } from 'react';
 import './App.css'
 
 class App extends Component {
+
+  deleteHandler(message) {
+    alert(message);
+  }
+
   render() {
     let subscribers = [
       {
@@ -33,7 +38,7 @@ class App extends Component {
               <span className="grid-item">{sub.name}</span> <br/>
               <span className="grid-item">{sub.phone}</span> <br/>
               <span className="grid-item action-btn-container">
-                <button className="custom-btn del-btn">Delete</button>
+                <button className="custom-btn del-btn" onClick={this.deleteHandler.bind(this, "Delete Clicked")}>Delete</button>
               </span>
               </div>
               })
