@@ -9,8 +9,6 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
-  <span>Hello React</span>
-  <input type="radio" value="radio"/>Yes
   </div>,
   document.getElementById('root')
 );
